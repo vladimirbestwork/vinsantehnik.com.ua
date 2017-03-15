@@ -1,18 +1,17 @@
-  <div class="col-sm-12">
   <?php if ($heading_title) { ?>
-<h3 class="main-page"><?php echo $heading_title; ?></h3>
-  <?php } ?></div>
-<div id="prodcarousel<?php echo $module; ?>" class="owl-carousel productcarusel view<?php echo $prodview; ?> <?php echo $class; ?>" style="min-height: 410px;">
+<h3><?php echo $heading_title; ?></h3>
+  <?php } ?>
+<div id="prodcarousel<?php echo $module; ?>" class="owl-carousel productcarusel view<?php echo $prodview; ?> <?php echo $class; ?>">
   <?php foreach ($products as $product) { ?>
   <div class="item text-center product-layout">
-   <div class="product-thumb transition" style="width: 260px;">
+   <div class="product-thumb transition">
       <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a></div>
       <div class="caption">
         <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
-<!-- <?php if ($prodview !=1 && $prodview !=2) { ?>
+<?php if ($prodview !=1 && $prodview !=2) { ?>
         <p><?php echo $product['description']; ?></p>
- <?php } ?> -->
-      
+ <?php } ?>
+        <?php if ($product['rating']) { ?>
         <div class="rating">
           <?php for ($i = 1; $i <= 5; $i++) { ?>
           <?php if ($product['rating'] < $i) { ?>
@@ -22,7 +21,7 @@
           <?php } ?>
           <?php } ?>
         </div>
-        
+        <?php } ?>
         <?php if ($product['price']) { ?>
         <p class="price">
           <?php if (!$product['special']) { ?>
@@ -55,7 +54,7 @@
 <script type="text/javascript"><!--
 $('#prodcarousel<?php echo $module; ?>').owlCarousel({
   items: <?php echo $items; ?>,
-  autoPlay: false,
+  autoPlay: 3000,
   navigation: true,
   navigationText: ['<i class="fa fa-chevron-left fa-5x"></i>', '<i class="fa fa-chevron-right fa-5x"></i>'],
   pagination: false

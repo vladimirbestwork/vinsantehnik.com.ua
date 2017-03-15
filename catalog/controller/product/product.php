@@ -243,6 +243,8 @@ class ControllerProductProduct extends Controller {
 			$data['text_points'] = $this->language->get('text_points');
 			$data['text_stock'] = $this->language->get('text_stock');
 			$data['text_discount'] = $this->language->get('text_discount');
+			$data['text_sku'] = $this->language->get('text_sku');
+			$data['sku'] = $product_info['sku'];
 			$data['text_tax'] = $this->language->get('text_tax');
 			$data['text_option'] = $this->language->get('text_option');
 			$data['text_minimum'] = sprintf($this->language->get('text_minimum'), $product_info['minimum']);

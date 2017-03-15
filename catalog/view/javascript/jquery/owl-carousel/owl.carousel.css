@@ -48,6 +48,7 @@
 .owl-controls .owl-buttons .owl-prev {
 	left: 10px;
 	top: 50%;
+	
 }
 .owl-controls .owl-buttons .owl-next {
 	right: 10px;
@@ -76,10 +77,13 @@
 }
 /* OpenCart Code */
 .owl-carousel {
-	margin: 0 0 20px;
+/*	margin: 0 0 40px;*/
 	background: #fff;
 	direction: ltr !important;
 	z-index: 1;
+}
+#slideshow0.owl-carousel {
+    width: 75%;
 }
 .owl-wrapper-outer {
 	border: 4px solid #fff;

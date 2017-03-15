@@ -1,5 +1,8 @@
 .owl-carousel .product-thumb {margin-bottom: 0px;}
-.productcarusel .owl-wrapper-outer {border:0px;}
+.productcarusel .owl-wrapper-outer {
+	border:0px;
+	padding-left: 10px;
+}
 .view2 .product-thumb .caption, .view1 .product-thumb .caption {min-height: 100px;}
 .view1 .button-group a, .view3 .button-group a {width: 60%;
 

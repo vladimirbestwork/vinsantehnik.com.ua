@@ -2,6 +2,19 @@
 display: none;
 cursor: default;
 }
+.common-home #menu2{
+	display: block;
+cursor: default;
+}
+.revmenu .col-md-3 {
+    margin-bottom: 20px;
+    padding-right: 0px;
+}
+.revmenu .col-md-8 {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left:0px;
+}
 #menu2_button.inhome #menu2{
 display: block;
 }

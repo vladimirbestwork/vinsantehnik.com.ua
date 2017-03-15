@@ -1,124 +1,5 @@
-@font-face {
-    font-family: 'geometriaextrabold';
-    src: url('../fonts/geometria-extablack-webfont.eot');
-    src: url('../fonts/geometria-extablack-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria-extablack-webfont.woff2') format('woff2'),
-         url('../fonts/geometria-extablack-webfont.woff') format('woff'),
-         url('../fonts/geometria-extablack-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'geometriaheavy';
-    src: url('../fonts/geometria-heavy-webfont-webfont.eot');
-    src: url('../fonts/geometria-heavy-webfont-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria-heavy-webfont-webfont.woff2') format('woff2'),
-         url('../fonts/geometria-heavy-webfont-webfont.woff') format('woff'),
-         url('../fonts/geometria-heavy-webfont-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-@font-face {
-    font-family: 'geometriaextralight';
-    src: url('../fonts/geometria-extralight-webfont.eot');
-    src: url('../fonts/geometria-extralight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria-extralight-webfont.woff2') format('woff2'),
-         url('../fonts/geometria-extralight-webfont.woff') format('woff'),
-         url('../fonts/geometria-extralight-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'geometriaitalic';
-    src: url('../fonts/geometria-italic-webfont.eot');
-    src: url('../fonts/geometria-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria-italic-webfont.woff2') format('woff2'),
-         url('../fonts/geometria-italic-webfont.woff') format('woff'),
-         url('../fonts/geometria-italic-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'geometrialight';
-    src: url('../fonts/geometria-light-webfont.eot');
-    src: url('../fonts/geometria-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria-light-webfont.woff2') format('woff2'),
-         url('../fonts/geometria-light-webfont.woff') format('woff'),
-         url('../fonts/geometria-light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'geometriabold';
-    src: url('../fonts/geometria-bold-webfont.eot');
-    src: url('../fonts/geometria-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria-bold-webfont.woff2') format('woff2'),
-         url('../fonts/geometria-bold-webfont.woff') format('woff'),
-         url('../fonts/geometria-bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'geometriamedium';
-    src: url('../fonts/geometria-medium-webfont.eot');
-    src: url('../fonts/geometria-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria-medium-webfont.woff2') format('woff2'),
-         url('../fonts/geometria-medium-webfont.woff') format('woff'),
-         url('../fonts/geometria-medium-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'geometriaregular';
-    src: url('../fonts/geometria-webfont.eot');
-    src: url('../fonts/geometria-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria-webfont.woff2') format('woff2'),
-         url('../fonts/geometria-webfont.woff') format('woff'),
-         url('../fonts/geometria-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'geometriathin';
-    src: url('../fonts/geometria-thin-webfont.eot');
-    src: url('../fonts/geometria-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/geometria-thin-webfont.woff2') format('woff2'),
-         url('../fonts/geometria-thin-webfont.woff') format('woff'),
-         url('../fonts/geometria-thin-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face{font-family:'als_rublregular';src:url('../fonts/rub/rub-webfont.eot');src:url('../fonts/rub/rub-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/rub/rub-webfont.woff') format('woff'),url('../fonts/rub/rub-webfont.ttf') format('truetype');font-weight:normal;font-style:normal}
-.rub{font-family:'als_rublregular';}
-
 body {
-	font-family: 'geometriaregular', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: #666;
 	font-size: 14px;
@@ -155,7 +36,7 @@ i.fa.fa-user {
 /* Override the bootstrap defaults */
 h1 {
     font-size: 24px;
-    font-family: 'geometriabold';
+    font-family: 'Open Sans';
     color: #2a8dcc;
 }
 h2 {
@@ -163,7 +44,7 @@ h2 {
 }
 h3 {
 	font-size: 22px;
-	font-family: 'geometriamedium';
+	font-family: 'Open Sans';
     text-align: center;
 }
 h4 {
@@ -176,7 +57,7 @@ h6 {
 	font-size: 10.2px;
 }
 h2.module-main {
-    /* font-family: 'geometriabold'; */
+    /* font-family: 'Open Sans'; */
     font-size: 30px;
     font-weight: 600;
     text-align: center;
@@ -1194,12 +1075,12 @@ span.menu-title-1 {
 
 /* Вверхнее меню */
 
-.upmenu .navbar-default .navbar-nav>li>a {
+.pav-verticalmenu .navbar-default .navbar-nav>li>a {
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
 }
-.upmenu .navbar-default .navbar-nav>li>a:hover {
+.pav-verticalmenu .navbar-default .navbar-nav>li>a:hover {
 	box-shadow: 0 0 5px #fff inset; 
 }
 
@@ -1249,7 +1130,7 @@ footer li {
 }
 
 footer h5 {
-	font-family: 'geometriabold';
+	font-family: 'Open Sans';
 	font-size: 14px;
 	font-weight: bold;
 	color: #424242;
@@ -1670,7 +1551,7 @@ display: block;
 
 .myprice .price-new{
 	color: #ff6700;
-	font-family: 'geometriabold';
+	font-family: 'Open Sans';
 	font-size: 30px;
 }
 .myprice .price-old{
@@ -2055,7 +1936,7 @@ button.close {
 /* Карусель */
 .owl-carousel {
  /*   border: 1px solid #ddd;*/
-    margin-bottom: 20px;
+ /*   margin-bottom: 20px;*/
     float: left;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
@@ -2188,7 +2069,7 @@ text-align: center;
     border-bottom-width: 1px;
 }
 .table>tbody>tr>td strong, .table>tbody>tr>th strong, .table>tfoot>tr>td strong, .table>tfoot>tr>th strong, .table>thead>tr>td strong, .table>thead>tr>th strong {
-	font-family: 'geometriabold';
+	font-family: 'Open Sans';
     font-size: 14px;
 }
 
