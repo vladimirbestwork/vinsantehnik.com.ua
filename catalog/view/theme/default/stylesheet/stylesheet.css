@@ -1301,6 +1301,16 @@ border-color: #2a8dcc;
     color: #fff;
     padding: 7.5px 11px;
 }
+.box-heading.btn.btn-primary:hover {
+    box-shadow: none;
+}
+.box-heading.btn.btn-primary {
+    background: #323ea4;
+    border-color: #323ea4;
+    color: #fff;
+    padding: 7.5px 11px;
+}
+
 .navbar-header .btn.btn-primary:hover {
 box-shadow: none;
 }
