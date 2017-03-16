@@ -10,7 +10,13 @@ body {
     margin: 0px;
     padding: 0px;
 }
-
+.product-thumb p {
+    margin: 0 0 0px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 hr{
     border-top: 1px solid #e0e0e0;
 }
@@ -1755,7 +1761,7 @@ ul.language-select li {
     border-radius: 0px;
 }
 a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
-    border-color: #ff6700;
+    border-color: rgba(0, 0, 0, 0.2);
     outline-color: #fff;
 }
 .image-additional {
