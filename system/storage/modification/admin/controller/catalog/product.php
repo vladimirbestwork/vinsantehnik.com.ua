@@ -1452,11 +1452,11 @@ class ControllerCatalogProduct extends Controller {
 			$this->error['warning'] = $this->language->get('error_permission');
 		}
 
-		foreach ($this->request->post['product_description'] as $language_id => $value) {
-			if ((utf8_strlen($value['name']) < 3) || (utf8_strlen($value['name']) > 255)) {
-				$this->error['name'][$language_id] = $this->language->get('error_name');
-			}
-		}
+		// foreach ($this->request->post['product_description'] as $language_id => $value) {
+		// 	if ((utf8_strlen($value['name']) < 3) || (utf8_strlen($value['name']) > 255)) {
+		// 		$this->error['name'][$language_id] = $this->language->get('error_name');
+		// 	}
+		// }
 
 		if ((utf8_strlen($this->request->post['model']) < 1) || (utf8_strlen($this->request->post['model']) > 64)) {
 			$this->error['model'] = $this->language->get('error_model');

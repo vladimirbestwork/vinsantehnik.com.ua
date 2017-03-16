@@ -57,6 +57,9 @@ div.verticalmenu  .navbar-header {    width: 100%;}
   line-height: 20px;
   text-transform: uppercase;
 }
+.pav-verticalmenu .mega-col .mega-col-inner > ul > li > a:hover {
+  color: #337ab7;
+}
 .pav-verticalmenu .dropdown-submenu:hover .dropdown-menu {
   display: block;
 }

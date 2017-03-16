@@ -1,7 +1,7 @@
 <div class="revmenu">
 	<div class="col-sm-6 col-md-3">
 		<div id="menu2_button" <?php if ($module_class) { ?>class="<?php echo $module_class; ?>"<?php } ?>>
-			<div class="box-heading btn btn-primary" data-toggle="collapse" data-target=".navbar-revmenu-collapse"><i class="fa fa-bars"></i><?php echo $heading_title; ?><span class="icorightmenu"><i class="fa fa-chevron-down"></i></span></div>
+			<div class="box-heading btn btn-primary" data-toggle="collapse" data-target=".navbar-revmenu-collapse"><?php echo $heading_title; ?><i class="fa fa-bars"></i></div>
 			<div class="box-content am collapse navbar navbar-revmenu-collapse">
 				<div id="menu2" <?php if ($module_class) { ?>class="<?php echo $module_class; ?>"<?php } ?>>
 					<div class="catalog_list catalog_list_popup catalog_as_popup">

@@ -10,7 +10,8 @@ class ControllerModuleCarousel extends Controller {
 		$this->document->addScript('catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js');
 
 		$data['banners'] = array();
-
+			$this->load->language('common/header');
+		$data['text_productors'] = $this->language->get('text_productors');
 		$results = $this->model_design_banner->getBanner($setting['banner_id']);
 
 		foreach ($results as $result) {
@@ -22,7 +23,7 @@ class ControllerModuleCarousel extends Controller {
 				);
 			}
 		}
-
+	
 		$data['module'] = $module++;
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/carousel.tpl')) {

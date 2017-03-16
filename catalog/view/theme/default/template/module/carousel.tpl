@@ -1,3 +1,6 @@
+  <div class="col-sm-12">
+<h3 class="main-page"><?php echo $text_productors; ?></h3>
+</div>
 <div id="carousel<?php echo $module; ?>" class="owl-carousel">
   <?php foreach ($banners as $banner) { ?>
   <div class="item text-center">

@@ -236,10 +236,11 @@ width: 100%;
 text-align: left;
 }
 #menu2_button .box-heading > .fa{
-padding-right: 10px;
-font-size: 14px;
-margin-top: -4px;
-vertical-align: middle;
+    /* padding-right: 10px; */
+    font-size: 14px;
+    margin-top: -29px;
+    vertical-align: middle;
+    float: right;
 }
 .icorightmenu {
 float: right;
@@ -276,7 +277,7 @@ border-radius: 0;
 margin-bottom: 0;
 border: 0;
 }
-#menu2:before {
+/*#menu2:before {
 border-color: transparent transparent #fff;
 border-style: solid;
 border-width: 0 6px 7px;
@@ -287,7 +288,7 @@ left: 9px;
 position: absolute;
 width: 0;
 z-index: 4;
-}
+}*/
 #menu2 ul.child2-box {
 width: initial;
 margin-left: 10px;
