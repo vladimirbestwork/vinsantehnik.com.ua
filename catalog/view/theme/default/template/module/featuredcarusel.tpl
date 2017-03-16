@@ -5,7 +5,7 @@
 <div id="prodcarousel<?php echo $module; ?>" class="owl-carousel productcarusel view<?php echo $prodview; ?> <?php echo $class; ?>" style="min-height: 410px;">
   <?php foreach ($products as $product) { ?>
   <div class="item text-center product-layout">
-   <div class="product-thumb transition" style="width: 260px;">
+   <div class="product-thumb ocstore-badge /* OC-Store: Badges */ transition" data-product-id="<?=$product['product_id'];?>" style="width: 260px;">
       <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a></div>
       <div class="caption">
         <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
