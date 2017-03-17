@@ -4,7 +4,7 @@
         <?php } ?>      
       
 <footer>
-  <div class="container">
+<!--   <div class="container">
 
         <?php global $registry; $bw_module_groups = $registry->get('bw_module_groups'); if (!empty($bw_module_groups['bw_fct'])) { ?>
         <?php echo implode('', $bw_module_groups['bw_fct']); ?>
@@ -48,21 +48,60 @@
         </ul>
       </div>
     </div>
-    <hr>
-    <p><?php echo $powered; ?></p>
 
-        <?php global $registry; $bw_module_groups = $registry->get('bw_module_groups'); if (!empty($bw_module_groups['bw_fcb'])) { ?>
-        <?php echo implode('', $bw_module_groups['bw_fcb']); ?>
-        <?php } ?>      
-      
+  </div> -->
+  <div class="container footer-fon">
+   <div class="row">
+    
+      <div class="col-sm-3">
+      <div id="logo-footer">
+                               <p><a href="/"><img src="/image/catalog/logo-1.png" title="Космос" alt="Космос" class="img-responsive h30" /></a></p>
+                                                     </div>
+      </div>
+   
+      <div class="col-sm-3">
+        <div class="phones_like_sel to_open">
+                    <ul class="open">
+                        <li class="selected" id="phone_1">
+                            <div class="city">Киевстар</div>
+                            <div class="num">096-71-32-652</div>
+                        </li>
+                        <li id="phone_2">
+                            <div class="city">Life</div>
+                            <div class="num"><span>093-71-32-652</span></div>
+                        </li>
+
+                    </ul>
+                </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="foot_time_work">
+            <ul>
+                <li><span class="strong"><?php echo $text_config_open_t; ?></span> </li>
+                <li><span class="strong"><?php echo $text_config_open_d; ?></span><?php echo $text_config_open_l; ?></li>
+                <li></li>
+            </ul>
+        </div>
+      </div>
+      <div class="col-sm-3">
+            <div class="foot_cyti">
+            <span><?php echo $text_adres_1; ?></span><br />
+           <?php echo $text_adres_2; ?>
+        </div>
+      </div>
+    </div>
   </div>
+
+
 </footer>
-
-<!--
-OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
-Please donate via PayPal to donate@opencart.com
-//-->
-
-<!-- Theme created by Welford Media for OpenCart 2.0 www.welfordmedia.co.uk -->
+<div class="greyfon">
+  <div class="container footer2">
+      <div class="col-lg-12">
+         Космос © Copyright 2016. All Rights Reserved.
+ 
+      
+      </div>
+      </div>
+</div>
 
 </body></html>
