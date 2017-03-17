@@ -1,6 +1,0 @@
-
-                AddType text/excelport excelport
-                <FilesMatch "\.(html|xlptemp|zip|xlsx|excelport)$">
-                    allow from all
-                </FilesMatch>
-            

@@ -48,8 +48,11 @@
 .owl-controls .owl-buttons .owl-prev {
 	left: 10px;
 	top: 50%;
-	
 }
+.col-sm-12.brands {
+    height: 35px;
+}
+
 .owl-controls .owl-buttons .owl-next {
 	right: 10px;
 	top: 50%;

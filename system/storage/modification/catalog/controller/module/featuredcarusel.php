@@ -4,7 +4,14 @@ class ControllerModuleFeaturedcarusel extends Controller {
 		static $module = 0;
 		$this->load->language('module/featuredcarusel');
 if ($setting['displaytitle'] == '1') {
-$data['heading_title'] = $setting['name'];
+	$data['heading_title'] = $setting['name'];
+}
+if ($setting['name'] == 'Хиты продаж'){
+	$data['heading_title'] = $data['text_hit'] = $this->language->get('text_hit');
+} elseif ($setting['name'] == 'Акции'){
+	$data['heading_title'] = $data['text_akc'] = $this->language->get('text_akc');
+} elseif ($setting['name'] == 'Новинки'){
+	$data['heading_title'] = $data['text_new'] = $this->language->get('text_new');
 } else {
 	$data['heading_title'] = false;
 }
@@ -14,6 +21,10 @@ $data['prodview'] = $setting['prodview'];
 $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
 $this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/featuredcarusel.css');
 $this->document->addScript('catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js');
+
+		$data['text_hit'] = $this->language->get('text_hit');
+		$data['text_new'] = $this->language->get('text_new');
+		$data['text_akc'] = $this->language->get('text_akc');
 
 
 		$data['text_tax'] = $this->language->get('text_tax');

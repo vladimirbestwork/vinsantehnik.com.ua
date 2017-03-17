@@ -1,4 +1,4 @@
-  <div class="col-sm-12">
+<div class="col-sm-12">
 <h3 class="main-page"><?php echo $text_productors; ?></h3>
 </div>
 <div id="carousel<?php echo $module; ?>" class="owl-carousel">
@@ -12,6 +12,7 @@
   </div>
   <?php } ?>
 </div>
+</div>
 <script type="text/javascript"><!--
 $('#carousel<?php echo $module; ?>').owlCarousel({
 	items: 6,
@@ -21,3 +22,6 @@ $('#carousel<?php echo $module; ?>').owlCarousel({
 	pagination: true
 });
 --></script>
+<div class="col-sm-12 brands">
+
+</div>

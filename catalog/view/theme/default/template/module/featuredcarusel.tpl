@@ -1,5 +1,6 @@
   <div class="col-sm-12">
-  <?php if ($heading_title) { ?>
+  <?php
+   if ($heading_title) { ?>
 <h3 class="main-page"><?php echo $heading_title; ?></h3>
   <?php } ?></div>
 <div id="prodcarousel<?php echo $module; ?>" class="owl-carousel productcarusel view<?php echo $prodview; ?> <?php echo $class; ?>" style="min-height: 410px;">
