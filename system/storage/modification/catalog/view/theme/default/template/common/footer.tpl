@@ -52,7 +52,7 @@
   </div> -->
   <div class="container footer-fon">
    <div class="row">
-    
+  
       <div class="col-sm-3">
       <div id="logo-footer">
                                <p><a href="/"><img src="/image/catalog/logo-1.png" title="Космос" alt="Космос" class="img-responsive h30" /></a></p>

@@ -20,6 +20,14 @@ class ControllerCommonFooter extends Controller {
 		$data['text_wishlist'] = $this->language->get('text_wishlist');
 		$data['text_newsletter'] = $this->language->get('text_newsletter');
 
+		$this->load->language('common/footer');
+		$data['text_config_open_t'] = $this->language->get('text_config_open_t');
+		$data['text_config_open_d'] = $this->language->get('text_config_open_d');
+		$data['text_config_open_l'] = $this->language->get('text_config_open_l');
+		$data['text_adres_1'] = $this->language->get('text_adres_1');
+		$data['text_adres_2'] = $this->language->get('text_adres_2');
+
+
 		$this->load->model('catalog/information');
 
 		$data['informations'] = array();
